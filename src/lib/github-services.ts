@@ -1,7 +1,8 @@
 import axios from "axios"
 import JSZip from "jszip"
 import FileSaver from "file-saver" 
-import type { ParsedGitHubUrl } from "./github-parser"
+import { ParsedGitHubUrl } from "./github-parser"
+
 
 interface GitHubContent {
   name: string
